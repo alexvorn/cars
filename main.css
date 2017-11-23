@@ -1,0 +1,85 @@
+.body{
+	height: 100vh;
+	width: 100vw;
+	background-color: black;
+}
+.header{
+	display: flex;
+	justify-content: flex-end;
+}
+.footer{
+	border: 0px solid red;
+	background: red;
+	color: white;
+	border-radius: 4px; 
+}
+.conteiner-flex{
+	width: 1200px;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	margin-top: 10px;
+}
+.header a{
+	color: white;
+}
+.header .nav>li>a:hover{
+	background-color: transparent;
+	color: white;
+}
+.image img {
+	width: 60px;
+	height: 30px;
+	display: block;
+
+
+}
+.block2{
+	display: flex;
+}
+.h1 {
+	position: fixed;
+	top: 265px;
+	left: 0;
+	width: 650px;
+	margin-left: 40px;
+	color: white !important;
+}
+.p{
+	position: fixed;
+	top: 375px;
+	left:0;
+	width: 650px;
+	margin-left: 40px;
+	color: white !important;	
+}
+.footer3 a{
+	background: red;
+	color: white;
+	border-radius: 4px;
+	position: fixed;
+	margin-left: 40px;
+	top: 430px;
+}
+.image3 img{
+	width: 30px;
+	height: 30px;
+	display: block;
+	position: fixed;
+	top: 545px;
+	margin-left: 40px;
+}
+.image3 p{
+	color: white;
+	position: fixed;
+	top: 580px;
+	margin-left: 40px;
+	width: 150px;
+}
+
+.main-section{
+	background: url(file:///E:/%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B8%D1%80/%D0%BB%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF%D1%8B/1.jpg);
+	height: calc(100vh - 50px);
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
