@@ -12,12 +12,14 @@ main {
     top: 0;
     left: 0;
 }
+
 .footer {
     border: 0px solid red;
     background: red;
     color: white;
     border-radius: 4px;
 }
+
 .conteiner-flex {
     width: 1200px;
     display: flex;
@@ -25,21 +27,26 @@ main {
     margin: auto;
     margin-top: 10px;
 }
+
 .header a {
     color: white;
 }
+
 .header .nav > li > a:hover {
     background-color: transparent;
     color: white;
 }
+
 .image img {
     width: 60px;
     height: 30px;
     display: block;
 }
+
 .block2 {
     display: flex;
 }
+
 .h1 {
     position: fixed;
     top: 265px;
@@ -48,6 +55,7 @@ main {
     margin-left: 40px;
     color: white !important;
 }
+
 .p {
     position: fixed;
     top: 375px;
@@ -56,6 +64,7 @@ main {
     margin-left: 40px;
     color: white !important;
 }
+
 .footer3 a {
     background: red;
     color: white;
@@ -64,6 +73,7 @@ main {
     margin-left: 40px;
     top: 430px;
 }
+
 .image3 img {
     width: 30px;
     height: 30px;
@@ -72,6 +82,7 @@ main {
     top: 545px;
     margin-left: 40px;
 }
+
 .image3 p {
     color: white;
     position: fixed;
@@ -82,10 +93,9 @@ main {
 
 .main-section {
     background: url('images/main-bg.png');
-    height: 100vh;
-    width: 100%;
+    width: 100%red;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 /* ====  */
@@ -94,10 +104,12 @@ main {
     display: flex;
     justify-content: space-between;
 }
+
 .container {
     width: 1281px;
     margin: 0 auto;
 }
+
 h1 {
     color: #ffffff;
     font-family: 'Lato';
@@ -115,16 +127,17 @@ h1 {
     font-weight: 400;
     letter-spacing: 0.25px;
 }
+
 .main-section {
-    display: flex;
-    justify-content: space-between;
     padding: 191px 0 111px;
 }
+
 .left-block {
     width: 55%;
     padding-top: 46px;
     text-align: left;
 }
+
 .left-block .description {
     color: #ffffff;
     font-family: 'Lato';
@@ -133,9 +146,11 @@ h1 {
     letter-spacing: 0.25px;
     margin: 28px 0 72px;
 }
+
 .main-section .left-block button {
     margin-bottom: 105px;
 }
+
 button.red {
     border-radius: 3px;
     background-color: #d33837;
@@ -146,6 +161,7 @@ button.red {
     color: white;
     cursor: pointer;
 }
+
 button.red:hover {
     box-shadow: 5px 5px 5px #030a0e;
 }
@@ -155,18 +171,22 @@ button.red:hover {
     max-height: 424px;
     height: auto;
 }
+
 .cards-wrap {
     display: flex;
 }
+
 .cards-wrap .card:not(:last-child) {
     margin-right: 102px;
 }
+
 .card img {
     width: 24px;
     height: auto;
     margin-bottom: 17px;
     display: block;
 }
+
 .card p {
     color: #ffffff;
     font-family: 'Lato';
@@ -174,4 +194,181 @@ button.red:hover {
     font-weight: 700;
     line-height: 22px;
     letter-spacing: 0.2px;
+}
+
+.catalog {
+    background: wight;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+h2 {
+    /* Style for "Наш катало" */
+    color: #0a1218;
+    font-family: 'Helvetica Neue';
+    font-size: 28px;
+    font-weight: 700;
+    /* Text style for "Наш катало" */
+    letter-spacing: 0.35px;
+    margin-top: 119px;
+}
+
+.container p {
+    /* Style for "Более 5 00" */
+    opacity: 0.6;
+    color: white;
+    font-family: 'Helvetica Neue';
+    font-size: 18px;
+    font-weight: 400;
+    /* Text style for "Более 5 00" */
+    letter-spacing: 0.23px;
+}
+
+.catalog2 {
+    background: wight;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+h3 {
+    /* Style for "Так и не с" */
+    color: #0a1218;
+    font-family: 'Helvetica Neue';
+    font-size: 28px;
+    font-weight: 700;
+    /* Text style for "Так и не с" */
+    letter-spacing: 0.35px;
+}
+
+.catalog2 p {
+    /* Style for "Заполните" */
+    opacity: 0.6;
+    color: #0a1218;
+    font-family: 'Helvetica Neue';
+    font-size: 18px;
+    font-weight: 400;
+    /* Text style for "Заполните" */
+    letter-spacing: 0.23px;
+}
+
+ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+
+ul.menu > li {
+    position: relative;
+}
+
+ul.menu > li > a {
+    display: block;
+    padding: 14px;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    border: 1px solid #0a1720;
+}
+
+ul.menu > li > a:hover {
+    background-color: white;
+}
+
+ul.advancing {
+    display: none;
+    position: absolute;
+    width: 120px;
+    top: 37px;
+    background-color: white;
+    /* border: 1px solid black; */
+}
+
+ul.advancing > li {
+    display: block;
+}
+
+ul.advancing > li > a {
+    display: block;
+    padding: 10px;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+}
+
+ul.advancing > li > a:hover {
+    text-decoration: underline;
+}
+
+ul.menu > li:hover > ul.advancing {
+    display: block;
+}
+
+.menu {
+    width: 295px;
+    height: 50px;
+    border-radius: 3px;
+    border: 1px solid #0a1720;
+    margin-left: 512px;
+    margin-top: 39px;
+}
+.modelofcar {
+    width: 295px;
+    height: 50px;
+    border-radius: 3px;
+    border: 1px solid #0a1720;
+    margin-left: 512px;
+    margin-top: 15px;
+    color: #0a1218;
+    font-family: 'Helvetica Neue';
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.18px;
+}
+.yourname {
+    width: 295px;
+    height: 50px;
+    border-radius: 3px;
+    border: 1px solid #0a1720;
+    margin-left: 512px;
+    margin-top: 15px;
+    font-family: 'Helvetica Neue';
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.18px;
+}
+.yourphonenumber {
+    width: 295px;
+    height: 50px;
+    border-radius: 3px;
+    border: 1px solid #0a1720;
+    margin-left: 512px;
+    margin-top: 15px;
+    font-family: 'Helvetica Neue';
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.18px;
+}
+.red2 {
+    width: 295px;
+    height: 50px;
+    border-radius: 3px;
+    background-color: #d33837;
+    color: #ffffff;
+    font-family: 'Helvetica Neue';
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.16px;
+    margin-left: 512px;
+    margin-top: 15px;
 }
