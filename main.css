@@ -204,24 +204,20 @@ button.red:hover {
 }
 
 h2 {
-    /* Style for "Наш катало" */
     color: #0a1218;
     font-family: 'Helvetica Neue';
     font-size: 28px;
     font-weight: 700;
-    /* Text style for "Наш катало" */
     letter-spacing: 0.35px;
     margin-top: 119px;
 }
 
 .container p {
-    /* Style for "Более 5 00" */
     opacity: 0.6;
     color: white;
     font-family: 'Helvetica Neue';
     font-size: 18px;
     font-weight: 400;
-    /* Text style for "Более 5 00" */
     letter-spacing: 0.23px;
 }
 
@@ -233,23 +229,19 @@ h2 {
 }
 
 h3 {
-    /* Style for "Так и не с" */
     color: #0a1218;
     font-family: 'Helvetica Neue';
     font-size: 28px;
     font-weight: 700;
-    /* Text style for "Так и не с" */
     letter-spacing: 0.35px;
 }
 
 .catalog2 p {
-    /* Style for "Заполните" */
     opacity: 0.6;
     color: #0a1218;
     font-family: 'Helvetica Neue';
     font-size: 18px;
     font-weight: 400;
-    /* Text style for "Заполните" */
     letter-spacing: 0.23px;
 }
 
@@ -288,10 +280,9 @@ ul.menu > li > a:hover {
 ul.advancing {
     display: none;
     position: absolute;
-    width: 120px;
+    width: 295px;
     top: 37px;
     background-color: white;
-    /* border: 1px solid black; */
 }
 
 ul.advancing > li {
@@ -316,19 +307,17 @@ ul.menu > li:hover > ul.advancing {
 
 .menu {
     width: 295px;
-    height: 50px;
     border-radius: 3px;
-    border: 1px solid #0a1720;
-    margin-left: 512px;
     margin-top: 39px;
+    display: flex;
+    flex-direction: column;
 }
 .modelofcar {
     width: 295px;
     height: 50px;
     border-radius: 3px;
     border: 1px solid #0a1720;
-    margin-left: 512px;
-    margin-top: 15px;
+    margin: 15px auto 0;
     color: #0a1218;
     font-family: 'Helvetica Neue';
     font-size: 14px;
@@ -340,8 +329,7 @@ ul.menu > li:hover > ul.advancing {
     height: 50px;
     border-radius: 3px;
     border: 1px solid #0a1720;
-    margin-left: 512px;
-    margin-top: 15px;
+    margin: 15px auto 0;
     font-family: 'Helvetica Neue';
     font-size: 14px;
     font-weight: 700;
@@ -352,8 +340,7 @@ ul.menu > li:hover > ul.advancing {
     height: 50px;
     border-radius: 3px;
     border: 1px solid #0a1720;
-    margin-left: 512px;
-    margin-top: 15px;
+    margin: 15px auto 0;
     font-family: 'Helvetica Neue';
     font-size: 14px;
     font-weight: 700;
@@ -369,6 +356,9 @@ ul.menu > li:hover > ul.advancing {
     font-size: 13px;
     font-weight: 700;
     letter-spacing: 0.16px;
-    margin-left: 512px;
-    margin-top: 15px;
+    margin: 15px auto 0;
+}
+.container-flex2 {
+    display: flex;
+    justify-content: center;
 }
