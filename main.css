@@ -210,12 +210,11 @@ h2 {
     font-size: 28px;
     font-weight: 700;
     letter-spacing: 0.35px;
-    margin-top: 119px;
 }
 
 .container p {
     opacity: 0.6;
-    color: white;
+    color: #b8bfc2;
     font-family: 'Helvetica Neue';
     font-size: 18px;
     font-weight: 400;
@@ -266,16 +265,21 @@ ul.menu>li {
 
 ul.menu>li>a {
     display: block;
-    padding: 14px;
+    padding: 20px;
     color: black;
     background-color: white;
     text-decoration: none;
     border-radius: 3px;
     border: 1px solid #0a1720;
+    color: #0a1218;
+    font-family: "Helvetica Neue";
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.18px;
 }
 
-ul.menu>li>a:hover {
-    background-color: white;
+ul.menu>li>:hover {
+    background-color:white;
 }
 
 ul.advancing {
@@ -290,19 +294,25 @@ ul.advancing {
 
 ul.advancing>li {
     display: block;
+    border: 1px solid #d8dce0;
 }
 
 ul.advancing>li>a {
     display: block;
     padding: 10px;
-    color: black;
+    color:#d0d3d5;
     background-color: white;
     text-decoration: none;
     padding: 20px 0 17px;
+    font-family: "Helvetica Neue";
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.18px;
 }
 
 ul.advancing>li>a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    color: black;
 }
 
 ul.menu>li:hover>ul.advancing {
@@ -393,7 +403,9 @@ h5 {
     font-weight: 700;
     letter-spacing: 0.23px;
 }
-
+.information{
+    margin-top: 155px;
+}
 .information p {
     opacity: 0.6;
     color: #0a1218;
@@ -405,8 +417,9 @@ h5 {
 }
 
 .information2 {
-    width: 625px;
+    width: 48%;
     margin-left: 119px;
+    margin-top: 86px;
 }
 
 .information2 p {
@@ -418,7 +431,6 @@ h5 {
     line-height: 27px;
     letter-spacing: 0.23px;
     text-align: left;
-    width: 571px;
 }
 
 .information2 ul {
@@ -427,8 +439,102 @@ h5 {
     font-size: 18px;
     font-weight: 700;
     letter-spacing: 0.23px;
+    margin-top: 40px;
 }
 
 .colortext {
     color: red;
+}
+h6{ 
+    width: 52px;
+    color: #0a1218;
+    font-family: "Helvetica Neue";
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.23px;
+}
+.name{
+width: 218px;
+color: #0a1218;
+font-family: "Helvetica Neue";
+font-size: 18px;
+font-weight: 400;
+letter-spacing: 0.23px;
+}
+.avto{
+width: 153px;
+opacity: 0.4;
+color:#a3a8ad;
+font-family: "Helvetica Neue";
+font-size: 18px;
+font-weight: 400;
+letter-spacing: 0.23px;
+}
+.commend p{
+opacity: 0.6;
+color: #0a1218;
+font-family: "Helvetica Neue";
+font-size: 18px;
+font-style: italic;
+line-height: 29px;
+letter-spacing: 0.23px;
+margin-top: 37px;
+}
+.block-right{
+    display: flex;
+}
+.commend img{
+width: 84px;
+height: 84px;
+}
+.commend-title{
+    display: flex;
+flex-direction: column;
+margin-top: 22px;
+margin-left: 24px;
+}
+.commend{
+margin-top: 85px;
+width: 38%;
+}
+.card2 li img{
+    margin-right: 19px;
+}
+.hidetext{
+    position: relative;
+width: 443px;
+opacity: 0.03;
+color: #0a1218;
+font-family: "Helvetica Neue";
+font-size: 78px;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 0.97px;
+top: 86px;
+}
+.hidetext2{
+    position: relative;
+width: 443px;
+opacity: 0.03;
+color: #0a1218;
+font-family: "Helvetica Neue";
+font-size: 78px;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 0.97px;
+top: 90px;}
+.hidetext3{
+    position: relative;
+width: 443px;
+opacity: 0.03;
+color: #0a1218;
+font-family: "Helvetica Neue";
+font-size: 78px;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 0.97px;
+top: 100px;}
+
+.information .container{
+    text-align: center;
 }
