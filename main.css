@@ -32,7 +32,7 @@ main {
     color: white;
 }
 
-.header .nav > li > a:hover {
+.header .nav>li>a:hover {
     background-color: transparent;
     color: white;
 }
@@ -97,6 +97,7 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 
 /* ====  */
 
@@ -259,11 +260,11 @@ ul:after {
     float: none;
 }
 
-ul.menu > li {
+ul.menu>li {
     position: relative;
 }
 
-ul.menu > li > a {
+ul.menu>li>a {
     display: block;
     padding: 14px;
     color: black;
@@ -273,7 +274,7 @@ ul.menu > li > a {
     border: 1px solid #0a1720;
 }
 
-ul.menu > li > a:hover {
+ul.menu>li>a:hover {
     background-color: white;
 }
 
@@ -281,27 +282,30 @@ ul.advancing {
     display: none;
     position: absolute;
     width: 295px;
-    top: 37px;
+    top: 55px;
     background-color: white;
+    z-index: 10;
+    border: 1px solid beige;
 }
 
-ul.advancing > li {
+ul.advancing>li {
     display: block;
 }
 
-ul.advancing > li > a {
+ul.advancing>li>a {
     display: block;
     padding: 10px;
     color: black;
     background-color: white;
     text-decoration: none;
+    padding: 20px 0 17px;
 }
 
-ul.advancing > li > a:hover {
+ul.advancing>li>a:hover {
     text-decoration: underline;
 }
 
-ul.menu > li:hover > ul.advancing {
+ul.menu>li:hover>ul.advancing {
     display: block;
 }
 
@@ -311,10 +315,13 @@ ul.menu > li:hover > ul.advancing {
     margin-top: 39px;
     display: flex;
     flex-direction: column;
+    color: black;
+    font-size: 14px;
+    font-family: "Helvetica Neue";
 }
+
 .modelofcar {
     width: 295px;
-    height: 50px;
     border-radius: 3px;
     border: 1px solid #0a1720;
     margin: 15px auto 0;
@@ -323,10 +330,11 @@ ul.menu > li:hover > ul.advancing {
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 0.18px;
+    padding: 20px 0 17px;
 }
+
 .yourname {
     width: 295px;
-    height: 50px;
     border-radius: 3px;
     border: 1px solid #0a1720;
     margin: 15px auto 0;
@@ -334,10 +342,11 @@ ul.menu > li:hover > ul.advancing {
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 0.18px;
+    padding: 20px 0 17px;
 }
+
 .yourphonenumber {
     width: 295px;
-    height: 50px;
     border-radius: 3px;
     border: 1px solid #0a1720;
     margin: 15px auto 0;
@@ -345,10 +354,11 @@ ul.menu > li:hover > ul.advancing {
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 0.18px;
+    padding: 20px 0 17px;
 }
+
 .red2 {
     width: 295px;
-    height: 50px;
     border-radius: 3px;
     background-color: #d33837;
     color: #ffffff;
@@ -357,8 +367,68 @@ ul.menu > li:hover > ul.advancing {
     font-weight: 700;
     letter-spacing: 0.16px;
     margin: 15px auto 0;
+    padding: 20px 0 17px;
+    cursor: pointer;
 }
+
 .container-flex2 {
     display: flex;
     justify-content: center;
+}
+
+h4 {
+    color: #0a1218;
+    font-family: "Helvetica Neue";
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 0.35px;
+    text-align: center;
+}
+
+h5 {
+    width: 52px;
+    color: #0a1218;
+    font-family: "Helvetica Neue";
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.23px;
+}
+
+.information p {
+    opacity: 0.6;
+    color: #0a1218;
+    font-family: "Helvetica Neue";
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.23px;
+    text-align: center;
+}
+
+.information2 {
+    width: 625px;
+    margin-left: 119px;
+}
+
+.information2 p {
+    opacity: 0.6;
+    color: #0a1218;
+    font-family: "Helvetica Neue";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.23px;
+    text-align: left;
+    width: 571px;
+}
+
+.information2 ul {
+    color: #0a1218;
+    font-family: "Helvetica Neue";
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.23px;
+}
+
+.colortext {
+    color: red;
 }
