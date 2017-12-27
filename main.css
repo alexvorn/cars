@@ -361,6 +361,7 @@ ul.menu > li:hover #advancing-list {
     font-weight: 700;
     letter-spacing: 0.18px;
     padding: 16px 111px 17px 15px;
+    outline: none;
 }
 
 .yourname {
@@ -372,6 +373,7 @@ ul.menu > li:hover #advancing-list {
     font-weight: 700;
     letter-spacing: 0.18px;
     padding: 16px 111px 17px 15px;
+    outline: none;
 }
 
 .yourphonenumber {
@@ -383,6 +385,7 @@ ul.menu > li:hover #advancing-list {
     font-weight: 700;
     letter-spacing: 0.18px;
     padding: 16px 111px 17px 15px;
+    outline: none;
 }
 
 .red.width {
@@ -995,4 +998,44 @@ button.red {
 
 .catalogtext {
     margin-top: 59px;
+}
+.menucalls {
+    border-radius: 3px;
+    background-color: #ffffff;
+    width: 669px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 205px;
+}
+.textmenucalls {
+    color: #0a1218;
+    font-family: 'Helvetica Neue';
+    font-size: 21px;
+    font-weight: 700;
+    letter-spacing: 0.26px;
+    width: 41%;
+    text-align: center;
+    margin-left: 62px;
+    padding-top: 63px;
+}
+.menunamecalls {
+    margin-left: 187px;
+}
+.menunumbercalls {
+    margin-left: 187px;
+}
+.red.widthbottom {
+    width: 295px;
+    margin-left: 187px;
+    margin-top: 18px;
+}
+.menubottom {
+    background-color: rgba(129, 137, 142, 0.6);
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
