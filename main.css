@@ -10,29 +10,49 @@ main {
     justify-content: flex-end;
     position: absolute;
     top: 0;
+    margin: auto;
+    right: 0;
     left: 0;
 }
-
-.footer {
-    border: 0px solid red;
-    background: red;
-    color: white;
-    border-radius: 4px;
+.header-right > div {
+    display: inline;
+}
+.contacts {
+    margin-right: 59px;
+}
+.aboutus {
+    margin-right: 50px;
+}
+.accessories {
+    margin-right: 51px;
 }
 
 .conteiner-flex {
-    width: 1200px;
     display: flex;
     justify-content: space-between;
-    margin: auto;
-    margin-top: 10px;
+}
+.header-right {
+    margin-right: 59px;
+    margin-top: 56px;
+    text-decoration: none;
+}
+.buttomtop {
+    margin-top: 42px;
+    border-radius: 3px;
+    background: none;
+    text-align: center;
+    border: 1px solid #ffffff;
+    padding: 17px 33px;
+    color: white;
+    cursor: pointer;
 }
 
 .header a {
     color: white;
+    text-decoration: none;
 }
 
-.header .nav>li>a:hover {
+.header .header-right > li > a:hover {
     background-color: transparent;
     color: white;
 }
@@ -41,6 +61,7 @@ main {
     width: 60px;
     height: 30px;
     display: block;
+    margin-top: 41px;
 }
 
 .block2 {
@@ -97,7 +118,6 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 
 /* ====  */
 
@@ -257,11 +277,11 @@ ul:after {
     float: none;
 }
 
-ul.menu>li {
+ul.menu > li {
     position: relative;
 }
 
-ul.menu>li>a {
+ul.menu > li > a {
     display: block;
     padding: 20px;
     color: black;
@@ -276,7 +296,7 @@ ul.menu>li>a {
     letter-spacing: 0.18px;
 }
 
-ul.menu>li> :hover {
+ul.menu > li > :hover {
     background-color: white;
 }
 
@@ -293,12 +313,12 @@ ul.advancing {
     border: 1px solid beige;
 }
 
-ul.advancing>li {
+ul.advancing > li {
     display: block;
     border: 1px solid #d8dce0;
 }
 
-ul.advancing>li>a {
+ul.advancing > li > a {
     display: block;
     padding: 10px;
     color: #d0d3d5;
@@ -311,12 +331,12 @@ ul.advancing>li>a {
     letter-spacing: 0.18px;
 }
 
-ul.advancing>li>a:hover {
+ul.advancing > li > a:hover {
     text-decoration: none;
     color: black;
 }
 
-ul.menu>li:hover #advancing-list {
+ul.menu > li:hover #advancing-list {
     display: block;
 }
 
@@ -830,7 +850,7 @@ button.red {
     letter-spacing: 0.23px;
 }
 
-.catalogtext>ul>li {
+.catalogtext > ul > li {
     display: inline;
 }
 
@@ -852,7 +872,7 @@ button.red {
     width: 90px;
     height: 22px;
     color: #0a1218;
-    font-family: "Helvetica Neue";
+    font-family: 'Helvetica Neue';
     font-size: 18px;
     font-weight: 700;
     letter-spacing: 0.23px;
@@ -860,7 +880,7 @@ button.red {
 
 .centertext {
     color: #0a1218;
-    font-family: "Helvetica Neue";
+    font-family: 'Helvetica Neue';
     font-size: 12px;
     font-weight: 700;
     letter-spacing: 0.15px;
@@ -874,7 +894,7 @@ button.red {
 
 .bottomtext {
     color: #0a1218;
-    font-family: "Helvetica Neue";
+    font-family: 'Helvetica Neue';
     font-size: 18px;
     font-weight: 700;
     letter-spacing: 0.23px;
@@ -907,7 +927,7 @@ button.red {
     padding: 17px 65px;
     cursor: pointer;
     color: #0a1218;
-    font-family: "Helvetica Neue";
+    font-family: 'Helvetica Neue';
     font-size: 13px;
     font-weight: 700;
     letter-spacing: 0.16px;
@@ -924,7 +944,7 @@ button.red {
 
 .salon {
     color: #0a1218;
-    font-family: "Helvetica Neue";
+    font-family: 'Helvetica Neue';
     font-size: 18px;
     font-weight: 700;
     letter-spacing: 0.23px;
@@ -932,7 +952,7 @@ button.red {
 
 .covers {
     color: #0a1218;
-    font-family: "Helvetica Neue";
+    font-family: 'Helvetica Neue';
     font-size: 18px;
     font-weight: 700;
     letter-spacing: 0.23px;
@@ -940,7 +960,7 @@ button.red {
 
 .trunk {
     color: #0a1218;
-    font-family: "Helvetica Neue";
+    font-family: 'Helvetica Neue';
     font-size: 18px;
     font-weight: 700;
     letter-spacing: 0.23px;
@@ -948,7 +968,7 @@ button.red {
 
 .deflectors {
     color: #0a1218;
-    font-family: "Helvetica Neue";
+    font-family: 'Helvetica Neue';
     font-size: 18px;
     font-weight: 700;
     letter-spacing: 0.23px;
@@ -956,7 +976,7 @@ button.red {
 
 .mudflaps {
     color: #0a1218;
-    font-family: "Helvetica Neue";
+    font-family: 'Helvetica Neue';
     font-size: 18px;
     font-weight: 700;
     letter-spacing: 0.23px;
