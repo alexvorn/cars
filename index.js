@@ -1,6 +1,9 @@
 // slick initialize
 $(document).ready(function() {
-    $('.your-class').slick();
+    $('.your-class').slick({
+        autoplay: true,
+        infinity: true
+    });
 });
 // end of slick
 
@@ -93,3 +96,14 @@ $('.catalogtexttop div').click(e => {
 });
 
 // TABS
+
+$('.showmodal').click(e => {
+    console.log(0);
+    $('.modal').addClass('active');
+});
+
+$('.close').click(e => {
+    console.log(0);
+    $('.modal').removeClass('active');
+});
+
