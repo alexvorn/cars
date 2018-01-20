@@ -685,7 +685,6 @@ h7 {
 }
 
 .commendtext {
-    margin-left: 76px;
     margin-bottom: 100px;
 }
 
@@ -693,7 +692,9 @@ h7 {
     box-shadow: 0 2px 4px rgba(222, 223, 225, 0.5);
     border-radius: 5px;
     background-color: #ffffff;
-    margin-right: 76px;
+}
+.firstcommend p {
+    text-align: center;
 }
 
 .secondcommend {
@@ -1162,6 +1163,7 @@ button.red {
     z-index: 10;
 }
 .slick-wrap {
+    display: none;
     height: 600px;
     width: 1000px;
     z-index: 2;
@@ -1190,4 +1192,33 @@ button.red {
 .slick-cloned {
     /* display: none !important; we don't need clons */
     justify-content: center;
+}
+.commendtext .slider-wrap {
+    display: flex;
+    position: relative;
+    height: auto;
+}
+
+.comments {
+    height: 400px;
+    width: 1281px;
+}
+.comments .slider-wrap img {
+    height: auto;
+}
+.comments .slick-slide { 
+    margin-right: 15px;
+    margin-left: 15px;
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+.comments .firstcommend {
+    box-shadow: none;
+}
+.comments .slick-prev:before, .comments .slick-next:before {
+    color: #000;
+}
+.comments .slick-active:last-child {
+    margin-right: 0; 
 }

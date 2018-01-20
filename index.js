@@ -3,6 +3,10 @@ $(document).ready(() => {
         autoplay: true,
         infinity: true
     });
+
+    $('.comments').slick({
+        slidesToShow: 3
+    })
 });
 
 const listItems = document.querySelectorAll('#advancing-list li');
