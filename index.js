@@ -1,11 +1,9 @@
-// slick initialize
-$(document).ready(function() {
-    $('.your-class').slick({
+$(document).ready(() => {
+    $('.slick-wrap').slick({
         autoplay: true,
         infinity: true
     });
 });
-// end of slick
 
 const listItems = document.querySelectorAll('#advancing-list li');
 const selectedBtn = document.getElementById('select-button');
@@ -103,7 +101,15 @@ $('.showmodal').click(e => {
 });
 
 $('.close').click(e => {
-    console.log(0);
     $('.modal').removeClass('active');
+});
+
+$('.show-more').click(function() {
+    $(this).closest('.cataloginteriorblock').find('.slider-wrap').addClass('active');
+    $(this).closest('.cataloginteriorblock').find('.slick-wrap').slick("refresh"); 
+});
+
+$('.layer').click(function() {
+    $(this).parent().removeClass('active');
 });
 
