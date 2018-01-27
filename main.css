@@ -1257,3 +1257,61 @@ a.red {
 .comments .slick-active:last-child {
     margin-right: 0;
 }
+@media (max-width: 320px) {
+.container{ width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.image img {
+    width: 60px;
+    height: 30px;
+    display: block;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.header-right {
+    margin-right: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}
+.main-section {
+    background-position: 28%,50%;
+}
+h1{
+    font-size: 18px;
+    line-height: 25px;
+    order: 1;
+}
+.left-block .description {
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 51px;
+    margin-top: -20px;
+    order: 2;
+}
+a.red{
+    order: 3;
+}
+.cards-wrap {
+    display: flex;
+    order: 5;
+    flex-direction: column;
+}
+.card{
+    margin-bottom: 29px;
+}
+.main-section .main-img {
+    display: none;
+}
+.header-right div{
+    margin-right: 0px; 
+}
+.cards-wrap .card:not(:last-child) {
+    margin-right: 0px;
+}
+.block2>div:last-child{
+    display: none;
+}
+}
