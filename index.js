@@ -109,6 +109,7 @@ $('.close').click(e => {
 });
 
 $('.show-more').click(function() {
+    console.log(1);
     $(this)
         .closest('.cataloginteriorblock')
         .find('.slider-wrap')
@@ -124,3 +125,19 @@ $('.layer').click(function() {
         .parent()
         .removeClass('active');
 });
+
+// ({
+//     user: 'andrejstarusev@gmail.com', // Your GMail account used to send emails
+//     pass: 123, // Application-specific password
+//     to: 'a.starusiev@zajno.com', // Send to yourself
+//     subject: 'ping',
+//     text: 'gmail-send example 3', // Plain text
+// }({}));
+
+// $('.catalogtexttop div').click(e => {
+//     const index = $(e.target).index();
+//     $('.tab-item').removeimg('active');
+//     $('.tab-item')
+//         .eq(index)
+//         .addimg('active');
+// });
