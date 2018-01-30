@@ -1170,7 +1170,7 @@ a.red {
     margin-top: 19px;
     border: 1px solid red;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 3px;
 }
 
 .slider-wrap {
@@ -1256,4 +1256,256 @@ a.red {
 
 .comments .slick-active:last-child {
     margin-right: 0;
+}
+@media (max-width: 320px) {
+    .container {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .image img {
+        width: 60px;
+        height: 30px;
+        display: block;
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+    .header-right {
+        margin-right: 10px;
+        margin-top: 10px;
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+    }
+    .main-section {
+        background-position: 28%, 50%;
+    }
+    h1 {
+        font-size: 18px;
+        line-height: 25px;
+        order: 1;
+    }
+    .left-block .description {
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 51px;
+        margin-top: -20px;
+        order: 2;
+    }
+    a.red {
+        order: 3;
+        margin-bottom: 52px;
+        margin-left: 72px;
+    }
+    .cards-wrap {
+        display: flex;
+        order: 5;
+        flex-direction: column;
+        margin-top: 63px;
+    }
+    .card {
+        margin-bottom: 29px;
+    }
+    .main-section .main-img {
+        display: none;
+    }
+    .header-right div {
+        margin-right: 0px;
+    }
+    .cards-wrap .card:not(:last-child) {
+        margin-right: 0px;
+    }
+    .block2 > div:last-child {
+        display: none;
+    }
+    .main-section .left-block {
+        display: flex;
+        flex-direction: column;
+    }
+    .left-block > .main-img {
+        width: 82%;
+        max-height: 424px;
+        height: auto;
+        margin-left: 29px;
+        margin-right: 29px;
+        display: block;
+        order: 4;
+    }
+    .hidetext {
+        font-size: 39px;
+        letter-spacing: 0.49px;
+        top: 45px;
+    }
+    h2 {
+        font-size: 18px;
+        letter-spacing: 0.22px;
+    }
+    .container p {
+        font-size: 14px;
+        letter-spacing: 0.18px;
+    }
+    .catalogtexttop {
+        margin: 0px;
+        flex-wrap: wrap;
+        margin-right: 76px;
+        margin-left: 15px;
+        justify-content: none;
+    }
+    .buttom-tabs {
+        font-size: 12px;
+        letter-spacing: 0.15px;
+        margin-right: 20px;
+        margin-bottom: 15px;
+    }
+    .linetopblock {
+        display: none;
+    }
+    .tab-item.active {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    .cataloginteriorblock {
+        margin-top: 24px;
+    }
+    .textblock {
+        margin-left: 31px;
+        margin-top: 20px;
+    }
+    .toptext {
+        font-size: 14px;
+        letter-spacing: 0.17px;
+    }
+    #texttabs {
+        font-size: 13px;
+        letter-spacing: 0.16px;
+    }
+    .bottomtext {
+        font-size: 14px;
+        letter-spacing: 0.17px;
+        margin-top: 31px;
+        margin-bottom: 33px;
+    }
+    .buttonbuy {
+        margin-top: 20px;
+        margin-bottom: 21px;
+        padding: 12px 40px;
+        font-size: 13px;
+        letter-spacing: 0.16px;
+    }
+    .show-more {
+        font-size: 13px;
+    }
+    h3 {
+        font-size: 18px;
+        letter-spacing: 0.22px;
+    }
+    .information {
+        margin-top: 0px;
+    }
+    h4 {
+        font-size: 18px;
+        letter-spacing: 0.22px;
+    }
+    .information2 {
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    .information2 ul {
+        font-size: 13px;
+        letter-spacing: 0.16px;
+    }
+    h5 {
+        font-size: 14px;
+        letter-spacing: 0.18px;
+    }
+    h6 {
+        font-size: 14px;
+        letter-spacing: 0.18px;
+        margin-top: 50px;
+    }
+    .firstcommend p {
+        text-align: left;
+    }
+    .commend {
+        display: none;
+    }
+    .commendtext {
+        margin-bottom: 0px;
+    }
+    .communications {
+        margin-top: 0px;
+    }
+    h7 {
+        font-size: 18px;
+        letter-spacing: 0.22px;
+    }
+    .allblock {
+        margin-top: 68px;
+        padding-bottom: 56px;
+        flex-direction: column;
+    }
+    .textcommunit {
+        font-size: 16px;
+        letter-spacing: 0.2px;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .textcommunitday {
+        font-size: 16px;
+        letter-spacing: 0.2px;
+        margin-top: 26px;
+    }
+    .textcommunitoplata {
+        font-size: 16px;
+        letter-spacing: 0.2px;
+        text-align: center;
+    }
+    .textbottom {
+        font-size: 18px;
+        letter-spacing: 0.35px;
+        padding-top: 0px;
+    }
+    .button.red a.red {
+        margin-bottom: 50px;
+    }
+    .blockline {
+        padding-top: 0px;
+    }
+    .bottomblock {
+        margin-top: 50px;
+    }
+    .textredaction {
+        font-size: 14px;
+        letter-spacing: 0.23px;
+    }
+    .number {
+        padding-bottom: 24px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .numbertwo {
+        padding-bottom: 24px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .mail {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container-centr {
+        padding-bottom: 60px;
+        display: flex;
+        flex-direction: column;
+    }
+    .bottomright {
+        margin-left: 15px;
+    }
+    .bottomleft {
+        margin-top: 3px;
+        margin-right: 16px;
+        font-size: 12px;
+    }
 }
