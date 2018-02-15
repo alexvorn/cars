@@ -6,6 +6,16 @@ $(document).ready(() => {
 
     $('.comments').slick({
         slidesToShow: 3,
+        responsive: [
+            {
+                breakpoint: 321,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinity: true,
+                },
+            },
+        ],
     });
 });
 
