@@ -1523,10 +1523,10 @@ a.red {
         top: 90%;
     }
     .slick-prev {
-        left: 5px;
+        left: -1px;
     }
     .slick-next {
-        right: 50px;
+        right: 30px;
     }
     .line {
         width: 100%;
@@ -1544,5 +1544,15 @@ a.red {
     }
     .comments {
         width: 100%;
+    }
+    .slick-wrap {
+        display: none;
+        height: auto;
+        max-width: 320px;
+        z-index: 2;
+    }
+    .slider-wrap img {
+        height: auto;
+        width: 320px !important;
     }
 }
