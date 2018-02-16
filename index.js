@@ -8,6 +8,14 @@ $(document).ready(() => {
         slidesToShow: 3,
         responsive: [
             {
+                breakpoint: 376,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinity: true,
+                },
+            },
+            {
                 breakpoint: 321,
                 settings: {
                     slidesToShow: 1,
