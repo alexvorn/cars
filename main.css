@@ -1556,7 +1556,7 @@ a.red {
         width: 320px !important;
     }
 }
-@media all and (min-width: 375px) {
+@media all and (max-width: 375px) {
     .container {
         width: 100%;
         padding-left: 15px;
@@ -1628,7 +1628,7 @@ a.red {
         justify-content: none;
     }
     .buttom-tabs {
-        font-size: 18px;
+        font-size: 15px;
         letter-spacing: 0.15px;
         margin-right: 20px;
         margin-bottom: 15px;
