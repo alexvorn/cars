@@ -1353,6 +1353,61 @@ a.red {
     .header-right{
         margin-right: 0px;
     }
+    .menucalls{
+        margin-top: 0px;
+    }
+        .slider-wrap img{
+        max-width: 600px;
+    }
+    .slick-wrap{
+        max-width: 600px;
+    }
+}
+@media (max-width: 425px){
+    .header-right{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .buttom-tabs{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .number{
+        margin: auto;
+    }
+    .numbertwo{
+        margin: auto;
+    }
+    .mail{
+        margin: auto;
+    }
+    .slick-track{
+        margin-top: 50px;
+    }
+    .slider-wrap img{
+        max-width: 350px;
+        height: 500px;
+    }
+    .slick-wrap{
+        max-width: 350px;
+    }
+    .slick-prev, .slick-next{
+        bottom: -40px;
+    }
+    .textcommunitoplata{
+        margin-left: 0px;
+    }
+    .container-centr{
+        flex-direction: column;
+    }
+    .menucalls{
+        margin-top: 0px;
+        width: 100%;
+    }
+
+
+
 }
 @media all and (max-width: 375px) {
     .container {
