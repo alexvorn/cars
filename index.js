@@ -7,6 +7,14 @@ $(document).ready(() => {
     $('.comments').slick({
         slidesToShow: 3,
         responsive: [
+                {
+                breakpoint: 1025,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    infinity: true,
+                },
+            },
             {
                 breakpoint: 376,
                 settings: {

@@ -956,6 +956,7 @@ a.red {
     margin-left: 31px;
     margin-top: 25px;
     white-space: nowrap;
+    min-height: 130px;
 }
 
 .textblock img {
@@ -1167,6 +1168,10 @@ a.red {
     position: relative;
 }
 
+.texttabs {
+    white-space: pre-wrap;
+}
+
 .show-more {
     color: black;
     cursor: pointer;
@@ -1174,6 +1179,9 @@ a.red {
     border: 1px solid red;
     padding: 10px;
     border-radius: 3px;
+    max-width: 122px;
+    display: inline-block;
+    margin-left: 31px;
 }
 
 .slider-wrap {
@@ -1260,6 +1268,282 @@ a.red {
 .comments .slick-active:last-child {
     margin-right: 0;
 }
+@media all and (max-width: 1024px) {
+    .container {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+        -webkit-box-sizing: border-box;
+    }
+    .cards-wrap .card:not(:last-child) {
+        margin-right: 25px;
+    }
+    .catalogtexttop{
+        margin: 0px;
+    }
+    .linetopblock{
+        margin: 0px;
+    }
+    .cataloginteriorblock{
+        margin: 20px 5px 5px;
+    }
+    .comments{
+        max-width: 1000px;
+    }
+    .information2{
+        margin-left: 0px;
+    }
+    .commend{
+        width: 43%;
+    }
+    .slick-prev{
+        left: -6px;
+    }
+    .slick-next{
+        right: -5px;
+    }
+    .slider-wrap img{
+        max-width: 800px;
+    }
+    .slick-wrap{
+        max-width: 900px;
+    }
+}
+@media all and (max-width: 375px) {
+    .container {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+        -webkit-box-sizing: border-box;
+    }
+    .header-right {
+        margin-right: 0px;
+        margin-top: 30px;
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+    }
+    .buttomtop {
+        display: none;
+    }
+    .aboutus {
+        margin-right: 0px;
+    }
+    .accessories {
+        margin-right: 0px;
+    }
+    .contacts {
+        margin-right: 0px;
+    }
+    .main-section {
+        background-position: 28%, 50%;
+    }
+    h1 {
+        font-size: 25px;
+        line-height: 25px;
+        order: 1;
+    }
+    .left-block .description {
+        font-size: 16px;
+        line-height: 18px;
+        margin-bottom: 51px;
+        order: 2;
+    }
+    a.red {
+        order: 3;
+        margin-bottom: 52px;
+    }
+    .cards-wrap {
+        display: flex;
+        order: 5;
+        flex-direction: column;
+        margin-top: 63px;
+    }
+    .card {
+        margin-bottom: 29px;
+    }
+    .main-section .main-img {
+        display: none;
+    }
+    .cards-wrap .card:not(:last-child) {
+        margin-right: 0px;
+    }
+    .main-img {
+        width: 100%;
+    }
+    .left-block .main-img {
+        display: block;
+    }
+    .catalogtexttop {
+        margin: 0px;
+        flex-wrap: wrap;
+        margin-left: 15px;
+        justify-content: none;
+    }
+    .buttom-tabs {
+        font-size: 15px;
+        letter-spacing: 0.15px;
+        margin-right: 20px;
+        margin-bottom: 15px;
+    }
+    .linetopblock {
+        display: none;
+    }
+    .tab-item.active {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    .information2 {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .commend {
+        display: none;
+    }
+    .information2 ul {
+        font-size: 16px;
+    }
+    .information2 ul > li {
+        margin-bottom: 10px;
+    }
+    .slick-wrap {
+        display: none;
+        height: auto;
+        max-width: 320px;
+        z-index: 2;
+    }
+    .slider-wrap img {
+        height: auto;
+        width: 320px !important;
+    }
+    .information2 p {
+        text-align: center;
+    }
+    .firstcommend p {
+        text-align: left;
+    }
+    .commendtext p {
+        width: 80%;
+    }
+    .slick-prev,
+    .slick-next {
+        top: 90%;
+    }
+    .slick-prev {
+        left: -1px;
+    }
+    .slick-next {
+        right: 30px;
+    }
+    .line {
+        width: 100%;
+    }
+    .slider-wrap {
+        width: 100vw;
+    }
+    .comments {
+        width: 100%;
+    }
+    .allblock {
+        margin-top: 68px;
+        padding-bottom: 56px;
+        flex-direction: column;
+    }
+    .textcommunit {
+        font-size: 16px;
+        letter-spacing: 0.2px;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .textcommunitday {
+        font-size: 16px;
+        letter-spacing: 0.2px;
+        margin-top: 26px;
+    }
+    .textcommunitoplata {
+        font-size: 16px;
+        letter-spacing: 0.2px;
+        text-align: center;
+    }
+    .container-centr {
+        padding-bottom: 60px;
+        display: flex;
+        flex-direction: column;
+    }
+    .number {
+        padding-bottom: 24px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .numbertwo {
+        padding-bottom: 24px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .mail {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .textbottom {
+        width: 100%;
+        padding-top: 0px;
+    }
+    .bottomright {
+        margin-left: 15px;
+    }
+    .bottomleft {
+        margin-top: 3px;
+        margin-right: 16px;
+        font-size: 12px;
+    }
+    .menucalls {
+        margin-top: 20px;
+        width: 100%;
+    }
+    .modalblock {
+        padding: 80px;
+    }
+    .textmenucalls {
+        font-size: 18px;
+        letter-spacing: 0.18px;
+    }
+    .cardtext {
+        font-size: 16px;
+    }
+    .container p {
+        font-size: 16px;
+    }
+    .texttabs {
+        font-size: 14px;
+    }
+    .catalog2 p {
+        font-size: 16px;
+    }
+    .information p {
+        font-size: 16px;
+    }
+    .information2 p {
+        font-size: 16px;
+    }
+    .communications p {
+        font-size: 16px;
+    }
+    #texttabs {
+        font-size: 14px;
+    }
+    .bottomtext {
+        margin-left: 10px;
+    }
+    .textblock {
+        margin-left: 31px;
+    }
+    .cataloginteriorblock {
+        margin-right: 0px;
+    }
+}
+
 @media all and (max-width: 321px) {
     .container {
         width: 100%;
@@ -1554,236 +1838,5 @@ a.red {
     .slider-wrap img {
         height: auto;
         width: 320px !important;
-    }
-}
-@media all and (max-width: 375px) {
-    .container {
-        width: 100%;
-        padding-left: 15px;
-        padding-right: 15px;
-        -webkit-box-sizing: border-box;
-    }
-    .header-right {
-        margin-right: 0px;
-        margin-top: 30px;
-        text-decoration: none;
-        display: flex;
-        flex-direction: column;
-    }
-    .buttomtop {
-        display: none;
-    }
-    .aboutus {
-        margin-right: 0px;
-    }
-    .accessories {
-        margin-right: 0px;
-    }
-    .contacts {
-        margin-right: 0px;
-    }
-    .main-section {
-        background-position: 28%, 50%;
-    }
-    h1 {
-        font-size: 25px;
-        line-height: 25px;
-        order: 1;
-    }
-    .left-block .description {
-        font-size: 16px;
-        line-height: 18px;
-        margin-bottom: 51px;
-        order: 2;
-    }
-    a.red {
-        order: 3;
-        margin-bottom: 52px;
-    }
-    .cards-wrap {
-        display: flex;
-        order: 5;
-        flex-direction: column;
-        margin-top: 63px;
-    }
-    .card {
-        margin-bottom: 29px;
-    }
-    .main-section .main-img {
-        display: none;
-    }
-    .cards-wrap .card:not(:last-child) {
-        margin-right: 0px;
-    }
-    .main-img {
-        width: 100%;
-    }
-    .left-block .main-img {
-        display: block;
-    }
-    .catalogtexttop {
-        margin: 0px;
-        flex-wrap: wrap;
-        margin-left: 15px;
-        justify-content: none;
-    }
-    .buttom-tabs {
-        font-size: 15px;
-        letter-spacing: 0.15px;
-        margin-right: 20px;
-        margin-bottom: 15px;
-    }
-    .linetopblock {
-        display: none;
-    }
-    .tab-item.active {
-        display: flex;
-        flex-direction: column;
-        position: relative;
-    }
-    .information2 {
-        width: 100%;
-        margin-left: 0px;
-    }
-    .commend {
-        display: none;
-    }
-    .information2 ul {
-        font-size: 16px;
-    }
-    .information2 ul > li {
-        margin-bottom: 10px;
-    }
-    .slick-wrap {
-        display: none;
-        height: auto;
-        max-width: 320px;
-        z-index: 2;
-    }
-    .slider-wrap img {
-        height: auto;
-        width: 320px !important;
-    }
-    .information2 p {
-        text-align: center;
-    }
-    .firstcommend p {
-        text-align: left;
-    }
-    .commendtext p {
-        width: 345px;
-    }
-    .slick-prev,
-    .slick-next {
-        top: 90%;
-    }
-    .slick-prev {
-        left: -1px;
-    }
-    .slick-next {
-        right: 30px;
-    }
-    .line {
-        width: 100%;
-    }
-    .slider-wrap {
-        width: 100vw;
-    }
-    .comments {
-        width: 375px;
-    }
-    .allblock {
-        margin-top: 68px;
-        padding-bottom: 56px;
-        flex-direction: column;
-    }
-    .textcommunit {
-        font-size: 16px;
-        letter-spacing: 0.2px;
-        text-align: center;
-        margin-right: auto;
-        margin-left: auto;
-    }
-    .textcommunitday {
-        font-size: 16px;
-        letter-spacing: 0.2px;
-        margin-top: 26px;
-    }
-    .textcommunitoplata {
-        font-size: 16px;
-        letter-spacing: 0.2px;
-        text-align: center;
-    }
-    .container-centr {
-        padding-bottom: 60px;
-        display: flex;
-        flex-direction: column;
-    }
-    .number {
-        padding-bottom: 24px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .numbertwo {
-        padding-bottom: 24px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .mail {
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .textbottom {
-        width: 100%;
-        padding-top: 0px;
-    }
-    .bottomright {
-        margin-left: 15px;
-    }
-    .bottomleft {
-        margin-top: 3px;
-        margin-right: 16px;
-        font-size: 12px;
-    }
-    .menucalls {
-        margin-top: 20px;
-        width: 100%;
-    }
-    .modalblock {
-        padding: 80px;
-    }
-    .textmenucalls {
-        font-size: 18px;
-        letter-spacing: 0.18px;
-    }
-    .cardtext {
-        font-size: 16px;
-    }
-    .container p {
-        font-size: 16px;
-    }
-    .texttabs {
-        font-size: 14px;
-    }
-    .catalog2 p {
-        font-size: 16px;
-    }
-    .information p {
-        font-size: 16px;
-    }
-    .information2 p {
-        font-size: 16px;
-    }
-    .communications p {
-        font-size: 16px;
-    }
-    #texttabs {
-        font-size: 14px;
-    }
-    .bottomtext {
-        margin-left: 10px;
-    }
-    .textblock {
-        margin-left: 0px;
     }
 }
