@@ -1075,29 +1075,6 @@ a.red {
     bottom: 0;
 }
 
-@media (max-width: 768px) {
-    .container {
-        width: calc(100% - 100px);
-        padding-right: 50px;
-        padding-left: 50px;
-    }
-    .main-section .container {
-        flex-direction: column;
-    }
-    .main-section .left-block {
-        margin: auto;
-        text-align: center;
-        width: 100%;
-    }
-    .main-section .main-img {
-        display: none;
-    }
-    .main-section .card img {
-        margin-right: auto;
-        margin-left: auto;
-    }
-}
-
 .redoval img {
     margin-bottom: 10px;
 }
@@ -1288,7 +1265,8 @@ a.red {
         margin: 20px 5px 5px;
     }
     .comments{
-        max-width: 1000px;
+        width: 100%;
+        margin: auto;
     }
     .information2{
         margin-left: 0px;
@@ -1307,6 +1285,73 @@ a.red {
     }
     .slick-wrap{
         max-width: 900px;
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        -webkit-box-sizing: border-box;
+    }
+    .main-section .container {
+        flex-direction: column;
+    }
+    .main-section .left-block {
+        margin: auto;
+        text-align: center;
+        width: 100%;
+    }
+    .main-section .main-img {
+        display: none;
+    }
+    .main-section .card img {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .tab-item.active{
+        flex-wrap: wrap;
+    }
+    .catalogblock{
+        min-height: 1800px;
+    }
+    .information2{
+        width: 100%;
+    }
+    .commend{
+        width: 0%;
+        display: none;
+    }
+    .slick-prev, .slick-next{
+        bottom: 30px;
+        top: auto;
+    }
+    .comments{
+        width: calc(100vw - 100px);
+        margin: auto;
+    }
+    .textcommunit{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .textcommunitoplata{
+        text-align: center;
+        width: 100%;
+    }
+    .allblock{
+        flex-direction: column;
+    }
+    .textbottom{
+        width: 100%;
+    }
+    .line{
+        width: 100%;
+    }
+    .buttomtop{
+        display: none;
+    }
+    .header-right{
+        margin-right: 0px;
     }
 }
 @media all and (max-width: 375px) {
