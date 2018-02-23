@@ -956,7 +956,7 @@ a.red {
     margin-left: 31px;
     margin-top: 25px;
     white-space: nowrap;
-    min-height: 130px;
+    min-height: 150px;
 }
 
 .textblock img {
@@ -1146,7 +1146,7 @@ a.red {
 }
 
 .texttabs {
-    white-space: pre-wrap;
+     white-space: pre-wrap; 
 }
 
 .show-more {
@@ -1245,7 +1245,7 @@ a.red {
 .comments .slick-active:last-child {
     margin-right: 0;
 }
-@media all and (max-width: 1024px) {
+@media all and (max-width: 1025px) {
     .container {
         width: 100%;
         padding-left: 15px;
@@ -1265,7 +1265,7 @@ a.red {
         margin: 20px 5px 5px;
     }
     .comments{
-        width: 100%;
+        width: 80%;
         margin: auto;
     }
     .information2{
@@ -1281,13 +1281,27 @@ a.red {
         right: -5px;
     }
     .slider-wrap img{
-        max-width: 800px;
+        max-width: 700px;
     }
     .slick-wrap{
         max-width: 900px;
     }
+    .menucalls{
+        margin-top: 50px;
+    }
+    .cataloginteriorblock>img{
+        min-height: 200px;
+    }
+    .textblock{
+        min-height: 180px;
+
+    }
+    .container-centr{
+            display: flex;
+    justify-content: center;
+    }
 }
-@media (max-width: 768px) {
+@media all and (max-width: 769px) {
     .container {
         width: 100%;
         padding-right: 15px;
@@ -1354,16 +1368,17 @@ a.red {
         margin-right: 0px;
     }
     .menucalls{
-        margin-top: 0px;
+        margin-top: 15px;
     }
         .slider-wrap img{
         max-width: 600px;
+        max-height: 500px;
     }
     .slick-wrap{
         max-width: 600px;
     }
 }
-@media (max-width: 425px){
+@media all and (max-width: 426px){
     .header-right{
         display: flex;
         flex-direction: column;
@@ -1387,29 +1402,30 @@ a.red {
     }
     .slider-wrap img{
         max-width: 350px;
-        height: 500px;
+        max-height:  400px;
     }
     .slick-wrap{
         max-width: 350px;
     }
-    .slick-prev, .slick-next{
-        bottom: -40px;
-    }
+/* .slick-prev, .slick-next{
+        bottom: -40px; 
+    } */
     .textcommunitoplata{
         margin-left: 0px;
     }
-    .container-centr{
+      .container-centr{
         flex-direction: column;
-    }
+    }  
     .menucalls{
-        margin-top: 0px;
+        margin-top: 15px;
         width: 100%;
+        height: 500px;
     }
-
-
-
+    .catalogtexttop{
+        flex-wrap: wrap;
+    }
 }
-@media all and (max-width: 375px) {
+    @media all and (max-width: 376px) {
     .container {
         width: 100%;
         padding-left: 15px;
@@ -1514,8 +1530,8 @@ a.red {
         z-index: 2;
     }
     .slider-wrap img {
-        height: auto;
         width: 320px !important;
+        max-height: 400px;
     }
     .information2 p {
         text-align: center;
@@ -1528,7 +1544,7 @@ a.red {
     }
     .slick-prev,
     .slick-next {
-        top: 90%;
+        top: 110%;
     }
     .slick-prev {
         left: -1px;
@@ -1904,7 +1920,7 @@ a.red {
     }
     .slick-prev,
     .slick-next {
-        top: 90%;
+        top: 110%;
     }
     .slick-prev {
         left: -1px;
@@ -1936,7 +1952,7 @@ a.red {
         z-index: 2;
     }
     .slider-wrap img {
-        height: auto;
-        width: 320px !important;
+        max-height: 400px;
+        width: 300px !important;
     }
 }
