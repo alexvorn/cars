@@ -1190,7 +1190,7 @@ a.red {
 .slider-wrap img {
     display: block;
     height: 600px;
-    width: auto !important;
+    width: 900px !important;
     margin: auto;
 }
 
