@@ -639,6 +639,10 @@ h7 {
 
 .days img {
     margin-top: 20px;
+        max-width: 320px;
+    max-height: 230px;
+    width: auto;
+    height: auto;
 }
 
 .days .textcommunit p {
@@ -1245,6 +1249,12 @@ a.red {
 .comments .slick-active:last-child {
     margin-right: 0;
 }
+.bottomright img{
+        max-width: 60px;
+    max-height: 30px;
+    width: auto;
+    height: auto;
+}
 @media all and (max-width: 1025px) {
     .container {
         width: 100%;
@@ -1667,11 +1677,13 @@ a.red {
         -webkit-box-sizing: border-box;
     }
     .image img {
-        width: 60px;
-        height: 30px;
+        width: auto;
+        height: auto;
         display: block;
         margin-top: 10px;
         margin-left: 5px;
+        max-width: 60px;
+    max-height: 30px;
     }
     .header-right {
         margin-right: 10px;
