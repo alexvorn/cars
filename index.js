@@ -55,9 +55,9 @@ listItems.forEach(item => {
     });
 });
 
-document.getElementById('btn-help').addEventListener('click', () => {
-    sendToEmail(null, null, null, selectedText);
-});
+// document.getElementById('btn-help').addEventListener('click', () => {
+//     sendToEmail(null, null, null, selectedText);
+// });
 
 function changeSelectedContent(content) {
     selectedBtn.innerHTML = content;
@@ -126,6 +126,10 @@ jQuery(document).ready(function($) {
 $('.catalogtexttop div').click(e => {
     const index = $(e.target).index();
     $('.tab-item').removeClass('active');
+    $('.buttom-tabs').removeClass('active');
+    $('.buttom-tabs')
+        .eq(index)
+        .addClass('active');
     $('.tab-item')
         .eq(index)
         .addClass('active');
@@ -159,6 +163,22 @@ $('.layer').click(function() {
         .parent()
         .removeClass('active');
 });
+
+$('.closebanner').click(e => {
+    $('.banner').css({display: 'none'});
+});
+
+// $(function () {
+//     $(".yourphonenumber").keypress(function (event) {
+
+//         if ($(this).val().length == 9) { /* obv 5 is too small for an address field, just want to use as an example though */
+//             return false;
+//         } else {
+//             return true;
+//         }
+
+//     });
+// });
 
 // ({
 //     user: 'andrejstarusev@gmail.com', // Your GMail account used to send emails
